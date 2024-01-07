@@ -23,7 +23,7 @@ export default function Home(){
       Alert.alert('Remove', `Do you want to remove the participant ${name}?`, [
         {
           text: 'Yes',
-          onPress: () => Alert.alert("Deleted!")
+          onPress: () => setParticipants(prevState => prevState.filter(participant => participant !== name))
         },
         {
           text: 'No',

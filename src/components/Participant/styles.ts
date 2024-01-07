@@ -12,11 +12,11 @@ export const styles = StyleSheet.create({
     name: {
         flex: 1,
         fontSize: 16,
-        color: '#FFF',
+        color: '#FFFFFFF',
         marginLeft: 16
     },
     buttonText: {
-        color: '#FFF',
+        color: '#FFFFFFF',
         fontSize: 24
     },
     button: {
